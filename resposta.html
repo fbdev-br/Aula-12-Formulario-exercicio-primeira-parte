@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulários</title>
+</head>
+<body>
+    <h1>Carros Elétricos</h1>
+    <form action="resposta.php" method="post">
+        <label for="inome">Nome Completo: </label><br>
+        <input type="text" name="nome" id="inome" placeholder="Digite seu nome completo" size="40" required><br><br>
+
+        <label for="imodelo">Modelo de Carro Elétrico Favorito: </label><br>
+        <input type="text" name="modelo" id="imodelo" placeholder="Ex: Telsa Model 3" size="40" required><br><br>
+
+        <label for="isenha">Crie Uma senha de Acesso:</label><br>
+        <input type="password" name="senha" id="isenha" placeholder="Mínimo 6 caracteres" size="22" required><br><br>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
